@@ -1,6 +1,6 @@
 # Visa/Mastercard Equity Research Valuation Python Program
 
-I'm on the equity research team at the Towson University Investment Group, and I built this for my report on Visa and Mastercard. I wrote it in Python instead of Excel because I enjoy coding, and Python is far more flexible. Its libraries go well beyond what a spreadsheet can do, and a script is easy to tweak, reuse and build on over time.
+I've recently built this for an equity research report on Visa and Mastercard. I wrote it in Python instead of Excel because I enjoy coding, and Python is far more flexible. Its libraries go well beyond what a spreadsheet can do, and a script is easy to tweak, reuse and build on over time.
 
 ## What it does
 
