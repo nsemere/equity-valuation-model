@@ -1,4 +1,4 @@
-# Visa/Mastercard Equity Research Valuation Python Program
+# Visa/Mastercard Equity Research Valuation Python Program (V1)
 
 I've recently built this for an equity research report on Visa and Mastercard. I wrote it in Python instead of Excel because I enjoy coding, and Python is far more flexible. Its libraries go well beyond what a spreadsheet can do, and a script is easy to tweak, reuse and build on over time.
 
@@ -49,3 +49,20 @@ Then choose **Run All**. Everything is priced on November 6, 2026, the date of t
 | `data/inputs.csv` | Every model input, from Yahoo Finance and FRED |
 
 Analyst estimates are from the day you run the script.
+
+
+
+
+## What's next
+
+This is version 1: it works end to end, but it only does Visa and Mastercard on one date.
+Over the next couple of weeks I'm upgrading it into a tool I can run any equity research through.
+
+- [ ] **Match the report:** rename the charts from "Exhibit" to "Figure" so they line up with the final report
+- [ ] **Pick your own date:** price everything on today's date by default, or any date you choose
+- [ ] **Any stock:** type any tickers into the command line and value them side by side
+- [ ] **One settings cell:** put every judgment call (growth, risk premium, long-term growth, method weights) in one place at the top
+- [ ] **Smarter defaults:** handle any company's fiscal year automatically and fall back on analyst growth if I don't set my own
+- [ ] **Safety checks:** warn when the model doesn't fit a company, like when free cash flow is negative
+- [ ] **Charts for any company:** have every chart resize to however many stocks you run
+- [ ] **Cleaner output:** a formatted summary table and a section on the model's limits
